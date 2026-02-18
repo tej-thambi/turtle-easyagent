@@ -1,0 +1,69 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build artifacts
+.next/
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+*.class
+.classpath
+.project
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Testing
+coverage/
+.nyc_output/
+.pytest_cache/
+
+# Misc
+*.pem
+*.key
+*.pfx
+*.p12
+secrets/
+.env.vault
+.env.*.vault
+.env.vault.local
+
+# Application specific
+.turbo/
+/public/uploads/
+*.tmp
